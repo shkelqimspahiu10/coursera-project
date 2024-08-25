@@ -1,0 +1,36 @@
+HTML
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel Recommendation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="landing-page">
+    <h2>Find Your Perfect Trip</h2>
+    <form id="preferenceForm">
+      <input type="text" name="interests" placeholder="Interests">
+      <input type="number" name="budget" placeholder="Budget">
+      <select name="travelStyle">
+        <option value="adventure">Adventure</option>
+        <option value="relaxation">Relaxation</option>
+        </select>
+      <button type="submit">Find Destinations</button>
+    </form>
+  </div>
+
+  <div id="destination-page" style="display: none;">
+    <h2>Recommended Destinations</h2>
+    <ul id="destinationList"></ul>
+  </div>
+
+  <div id="detail-page" style="display: none;">
+    <h2>Destination Details</h2>
+    <div id="destination-description"></div>
+    <div id="destination-images"></div>
+    <div id="destination-videos"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
