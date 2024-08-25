@@ -1,0 +1,19 @@
+CSS
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+#landing-page, #destination-page, #detail-page {
+  margin-bottom: 20px;
+}
+
+#destinationList {
+  list-style: none;
+  padding: 0;
+}
+
+#destinationList li {
+  margin-bottom: 10px;
+}
